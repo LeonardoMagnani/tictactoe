@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="assets/style/main.css">
+</head>
+<body>
+    <div class="container">
+        <div id="board">
+            <ul id="A">
+                <li id="A1"></li>
+                <li id="A2"></li>
+                <li id="A3"></li>
+            </ul>
+            <ul id="B">
+                <li id="B1"></li>
+                <li id="B2"></li>
+                <li id="B3"></li>
+            </ul>
+            <ul id="C">
+                <li id="C1"></li>
+                <li id="C2"></li>
+                <li id="C3"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="background-modal" id="modal">
+        <div class="modal-winner">
+            <h3 id="h3-winner" style="visibility: hidden;">Uhuuuul! O jogador <span id="winner"></span> é o vencedor!</h3>
+            <h3 id="h3-velha" style="visibility: hidden;">Eeeeita! Deu velha :(</h3>
+            <button id="button">Jogar novamente</button>
+        </div>
+    </div>
+
+    <script src="assets/script/main.js"></script>
+</body>
+</html>
